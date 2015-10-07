@@ -1,0 +1,2 @@
+# mathcode
+fun math
