@@ -45,7 +45,7 @@ while True:
 	inp = raw_input("Enter an positive integer: ")
 	#checks if input is a number
 	if numcheck(int(inp)) == False or int(inp) < 0:
-		endclause = raw_input("Welp you entered a wrong type input! If you want to exit, type in \"esc\". Other inputs will start the program again.")
+		endclause = raw_input("Welp you entered a wrong type input! If you want to try again, type in \"cont\". Other inputs will start the program again.")
 	else:
 		# 0 and 1 are special cases, neither prime nor composite
 		if int(inp) == 0 or int(inp) == 1:
