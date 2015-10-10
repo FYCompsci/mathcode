@@ -14,7 +14,8 @@ def numcheck (num):
 		int(num)
 		return True
 	except ValueError:
-		return Falseprint("Prime Number checker loaded.")
+		return False
+	print("Prime Number checker loaded.")
 '''
 Boring way to check if number is prime
 #function that checks if a number is prime
