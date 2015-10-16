@@ -34,7 +34,7 @@ def checkprime (num):
 	elif num % 2 == 0 or num % 3 == 0:
 		return False;
 	else:
-		int counter = 5
+		counter = 5
 		while counter*counter <= num:
 			if num % counter == 0 or num % (counter+2) == 0:
 				return False
