@@ -20,7 +20,7 @@ print("Prime Number checker loaded.")
 Boring way to check if number is prime
 #function that checks if a number is prime
 def checkprime (num):
-	if (number <= 1):
+	if (num <= 1):
 		return False
 	for i in range(2,num):
 		if num % (i) == 0 and num != i:
